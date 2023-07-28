@@ -9,3 +9,4 @@ The steps undertaken are:
 - Create tasks to extract data from a web server log file, transform the data, and load the transformed data into a tar file.
 - Define the task pipeline for the DAG.
 - Save the DAG and submit it to Apache Airflow.
+- Unpause the DAG and monitor its runs.
