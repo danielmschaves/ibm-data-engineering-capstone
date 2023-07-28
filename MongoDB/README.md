@@ -1,26 +1,15 @@
-# Part 2: NoSQL Database Setup with MongoDB
+# IBM Data Engineering Professional Certificate - Capstone Project
+## Part 2: NoSQL Database Querying with MongoDB
 
-In this section of the project, we utilize MongoDB, a NoSQL database, to manage our e-commerce catalog data. The tasks cover a wide range of MongoDB operations, from importing data to running sophisticated queries.
+This part of the project involves designing a data platform using MongoDB as a NoSQL database. This database was used to store the e-commerce catalog data. The tasks completed in this part include:
 
-## Tasks Overview:
+- Importing `catalog.json` into a MongoDB database named `catalog` and a collection named `electronics`.
+- Listing all the databases.
+- Listing all the collections in the `catalog` database.
+- Creating an index on the field `type`.
+- Writing a query to find the count of laptops.
+- Writing a query to find the number of smartphones with a screen size of 6 inches.
+- Writing a query to find the average screen size of smartphones.
+- Exporting the fields `_id`, `type`, and `model` from the `electronics` collection into a file named `electronics.csv`.
 
-1. **Environment Setup**:
-   - Verify if tools `mongoimport` and `mongoexport` are available.
-   - Download the `catalog.json` file for use with MongoDB.
-
-2. **MongoDB Operations**:
-   - Import the `catalog.json` file into a MongoDB database named `catalog` and into a collection named `electronics`.
-   - List all available databases and collections within the `catalog` database.
-   - Create an index on the field `type` for efficient querying.
-   - Conduct several queries, including counting specific types of products and calculating averages.
-   - Export specific fields from the `electronics` collection into a CSV file.
-
-## Files in this Repository:
-
-- **setupMongo.sh**: Script for setting up MongoDB tools and downloading the required data file.
-- **mongoOperations.sh**: Script containing MongoDB commands for the tasks mentioned above.
-- **queries.js**: MongoDB queries used in this section.
-
----
-
-To execute the tasks, follow the scripts provided and refer to the screenshots for expected outcomes.
+The MongoDB commands used to perform these tasks are included in this repository in the `mongodb_commands.txt` file.
