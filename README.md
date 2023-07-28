@@ -8,9 +8,9 @@ In the context of an e-commerce company, we go through a series of tasks that a 
 
 ## Directory Structure
 
-- `MySQL-OLTP/`: This directory contains the scripts and data related to Part 1 of the project. The task is to design and implement a MySQL database for an online bookstore. This relational database is optimized for handling online transactions.
+- `MySQL-OLTP/`: This directory contains the scripts and data related to Part 1 of the project. The task is to design and implement a MySQL database for an e-commerce company. This relational database is optimized for handling online transactions.
 
-- `MongoDB/`: This directory contains the files for Part 2 of the project. The task is to set up and manage a MongoDB NoSQL database for a blog website. The flexibility and scalability of MongoDB's document model are leveraged to manage blog posts and comments effectively.
+- `MongoDB/`: This directory contains the files for Part 2 of the project. The task is to set up and manage a MongoDB NoSQL database for a e-commerce company. The flexibility and scalability of MongoDB's document model are leveraged to manage blog posts and comments effectively.
 
 - `PostgreSQL-DW/`: This directory hosts the files for Part 3 of the project. Here, we design and implement a PostgreSQL Data Warehouse (DW) to manage the data of an e-commerce company. The DW is designed using a Star Schema, a popular schema for data warehouses, to enable efficient and intuitive data analysis.
 
