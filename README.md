@@ -28,6 +28,10 @@ Each folder contains a `README.md` file with detailed instructions on how to run
 
 Please follow the instructions in each `README.md` to understand the goals of each part of the project, and how to execute the scripts and commands.
 
+## Conclusion
+
+Throughout this project, a wide variety of data engineering tasks and scenarios were explored. This ranged from setting up databases, designing and implementing a data warehouse, creating ETL pipelines, and applying machine learning models for data analytics and forecasting. This project provides a comprehensive overview of the roles, responsibilities, and tasks a data engineer would typically perform.
+
 ## License
 
 This project is licensed under the terms of the MIT license.
