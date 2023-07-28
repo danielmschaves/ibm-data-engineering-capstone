@@ -1,0 +1,27 @@
+# Import catalog.json into the MongoDB database named catalog and a collection named electronics
+mongoimport --db catalog --collection electronics --file catalog.json
+
+# List all the databases
+show dbs
+
+# List all the collections in the catalog database
+use catalog
+show collections
+
+# Create an index on the field type
+db.electronics.createIndex({type: 1})
+
+# Write a query to find the count of laptops
+db.electronics.count({type: "laptop"})
+
+# Write a query to find the number of smartphones with a screen size of 6 inches
+db.electronics.count({type: "smartphone", "specifications.screen size": 6})
+
+# Write a query to find the average screen size of smartphones
+db.electronics.aggregate([
+  { $match: { type: "smartphone" }},
+  { $group: { _id: null, avgScreenSize: { $avg: "$specifications.screen size" }}}
+])
+
+# Export the fields _id, type, and model from the electronics collection into a file named electronics.csv
+mongoexport --db catalog --collection electronics --type csv --fields _id,type,model --out electronics.csv
