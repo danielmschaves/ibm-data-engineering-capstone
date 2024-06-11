@@ -1,5 +1,7 @@
 # IBM Data Engineering Professional Certificate - Capstone Project
 
+![capstone-project.png](https://github.com/danielmschaves/spotify-etl-aws/blob/main/ingestion/img/spotify.png?raw=true)
+
 This repository contains all the files associated with the Capstone Project for the IBM Data Engineering Professional Certificate. This project provides an end-to-end demonstration of the various stages and tasks involved in a typical Data Engineering pipeline. Each part of the project is stored in its respective folder.
 
 ## Project Scenario
